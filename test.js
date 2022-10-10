@@ -2,9 +2,9 @@ const { WebClient } = require('@slack/web-api');
 const { createEventAdapter } = require('@slack/events-api');
 
 // Create a new instance of the WebClient class with the token read from your environment variable
-const web = new WebClient('xoxb-2179801066-4179375741830-bg4KPxJR8asPiW5SvN7xHCwR');
-// The current date
-const slackSigningSecret = '54d3cbf22bef59c36d4b4e0f7b1b50d1';
+const web = new WebClient('xxxxxxxx');
+
+const slackSigningSecret = 'xxxxxxxxx';
 
 const CHANNEL_NAME = 'integration-slack-test'
 const port = 3000;
